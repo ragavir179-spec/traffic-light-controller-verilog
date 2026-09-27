@@ -1,0 +1,21 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports east_green]
+set_property IOSTANDARD LVCMOS33 [get_ports east_red]
+set_property IOSTANDARD LVCMOS33 [get_ports east_yellow]
+set_property IOSTANDARD LVCMOS33 [get_ports emergency]
+set_property IOSTANDARD LVCMOS33 [get_ports north_green]
+set_property IOSTANDARD LVCMOS33 [get_ports north_red]
+set_property IOSTANDARD LVCMOS33 [get_ports north_yellow]
+set_property IOSTANDARD LVCMOS33 [get_ports reset]
+
+set_property PACKAGE_PIN E3 [get_ports clk]
+set_property PACKAGE_PIN J15 [get_ports reset]
+set_property PACKAGE_PIN J16 [get_ports emergency]
+
+set_property PACKAGE_PIN F17 [get_ports north_red]
+set_property PACKAGE_PIN K15 [get_ports north_yellow]
+set_property PACKAGE_PIN J13 [get_ports north_green]
+
+set_property PACKAGE_PIN M14 [get_ports east_red]
+set_property PACKAGE_PIN R18 [get_ports east_yellow]
+set_property PACKAGE_PIN V17 [get_ports east_green]
